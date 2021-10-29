@@ -1,7 +1,7 @@
 // Package trap returns a root context for graceful exits.
 //
-// The package is typically used in main, it's context method
-// can be used to return a context that is canceled when an
+// The package is typically used in main, its context method
+// can be used to return a context that is cancelled when an
 // os signal is received.
 //
 // 		func main() {
