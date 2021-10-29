@@ -12,12 +12,12 @@ func main() {
 	db, err := open(ctx, "...")
 	if err != nil {
 		log.Fatalf("open: %s", err)
-  }
+	}
 
 	go work(db)
 	<-ctx.Done()
 	db.Close()
 
-  log.Println("done :)")
+	log.Println("done :)")
 }
 ```
